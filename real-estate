@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .btn-3:hover {
+            background-color: #ff6314 !important;
+            color: #fff !important;
+        }
+
+        .end-sm-0 {
+            right: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="position-relative">
+    <header class="position-relative ">
+        <div class="container-xl">
+            <nav class="navbar navbar-expand-lg bg-black" style="z-index: 1;">
+                <div class="container-fluid">
+                    <div>
+                        <a class="navbar-brand" href="#"><img
+                                src="https://cdn.prod.website-files.com/66485a78b23dea3a84fbe950/6660283926e9ce0f218939af_brand-logo-image.svg"
+                                alt=""></a>
+                    </div>
+                    <div class="navbar-collapse d-none d-flex justify-content-center" id="navbarTogglerDemo01">
+                        <ul class="navbar-nav d-flex justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" aria-disabled="true">Properteis</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" aria-disabled="true">Blogs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" aria-disabled="true">Pages</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex gap-3">
+                        <div class="d-flex align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-cart3" viewBox="0 0 16 16" style="color: white; ">
+                                <path
+                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                            </svg>
+                        </div>
+                        <button type="button" class="btn btn-outline-light d-none d-sm-block rounded-pill">Contact
+                            Us</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+        <div class="position-absolute top-0 start-0 bottom-0 end-0">
+            <img src="https://cdn.prod.website-files.com/66485a78b23dea3a84fbe950/666819f29e4cfa202f2ea8be_home-hero-bg-p-2000.webp"
+                class="h-100 w-100 " style="object-fit: cover;" alt="">
+            <div class="position-absolute m-0 p-0 bg-black" style="opacity: 80px;"></div>
+        </div>
+        <div class=" position-relative" style="padding: 128px 0px;">
+            <div class="container w-100">
+                <div class="d-lg-flex align-items-center gap-3 d-sm-flex flex-sm-column flex-lg-row d-flex flex-column" style="    margin-top: 36px;">
+                    <div >
+                        <h1 class="display-1" style="color: white;font-weight: 500;">Find the right and best home for your family
+                        </h1>
+                    </div>
+                    <div class="border-2 align-items-center rounded row" style="background-color: white;
+                        padding: 23px;
+                        gap: 29px;
+                        max-width: 326px;">
+                        <div class="">
+                            <p style="border-bottom: 1px solid orange; display: inline;padding-bottom: 6px;"> Buy
+                            </p><span style="padding-left: 12px;">Rent</span>
+                        </div>
+                        <div class="border-bottom d-flex gap-3">
+                            <img src="https://cdn.prod.website-files.com/66485a78b23dea3a84fbe950/664c21ec76a5b4d4d210d085_flats.svg"
+                                alt="">
+                            <div>
+                                I'm looking to buy
+                                <p class="h6" style="display: block;">Apartments</p>
+                            </div>
+                        </div>
+                        <div class="border-bottom d-flex gap-3">
+                            <img src="https://cdn.prod.website-files.com/66485a78b23dea3a84fbe950/666009d668985ee3bdf6e25f_location%201%201.svg"
+                                alt="">
+                            <div>
+                                In the city of
+                                <p class="h6" style="display: block;">Locations</p>
+                            </div>
+                        </div>
+                        <div class="border-bottom d-flex gap-3">
+                            <img src="https://cdn.prod.website-files.com/66485a78b23dea3a84fbe950/664c22606336b120552be867_Price.svg"
+                                alt="">
+                            <div>
+                                In price range of
+                                <p class="h6" style="display: block;">$50,000 - $1,25,000</p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <button type="button" class="btn btn-3 btn-outline-warning rounded-pill"
+                                style="  border: 1px solid #ff6314; color: #ff6314;  width: 100%;">Search</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="container-xl">
+                    <nav class="navbar navbar-expand-lg bg-black">
+                        <div class="container-fluid">
+                            <div>
+                                <a class="navbar-brand" href="#"><img
+                                        src="https://cdn.prod.website-files.com/66485a78b23dea3a84fbe950/6660283926e9ce0f218939af_brand-logo-image.svg"
+                                        alt=""></a>
+                            </div>
+                            <div class="navbar-collapse d-none d-flex justify-content-center" id="navbarTogglerDemo01">
+                                <ul class="navbar-nav d-flex justify-content-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" aria-disabled="true">Properteis</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" aria-disabled="true">Blogs</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" aria-disabled="true">Pages</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <div class="d-flex align-items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-cart3" viewBox="0 0 16 16" style="color: white; ">
+                                        <path
+                                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                                    </svg>
+                                </div>
+                                <button type="button"
+                                    class="btn btn-outline-light d-none d-sm-block rounded-pill">Contact Us</button>
+                            </div>
+                        </div>
+                    </nav>
+                </div> -->
+                <!-- <div class="d-lg-flex align-items-center gap-3  " style="    margin-top: 36px;">
+                    <div style="    padding-right: 150px;">
+                        <h1 class="fs-1 fw-bold" style="color: white;">Find the right and best home for your family
+                        </h1>
+                    </div>
+                    <div class="border-2 align-items-center rounded row" style="background-color: white;
+                        padding: 23px;
+                        gap: 29px;
+                        max-width: 326px;">
+                        <div class="">
+                            <p style="border-bottom: 1px solid orange; display: inline;padding-bottom: 6px;"> Buy
+                            </p><span style="padding-left: 12px;">Rent</span>
+                        </div>
+                        <div class="border-bottom d-flex gap-3">
+                            <img src="https://cdn.prod.website-files.com/66485a78b23dea3a84fbe950/664c21ec76a5b4d4d210d085_flats.svg"
+                                alt="">
+                            <div>
+                                I'm looking to buy
+                                <strong style="display: block;">Apartments</strong>
+                            </div>
+                        </div>
+                        <div class="border-bottom d-flex gap-3">
+                            <img src="https://cdn.prod.website-files.com/66485a78b23dea3a84fbe950/666009d668985ee3bdf6e25f_location%201%201.svg"
+                                alt="">
+                            <div>
+                                In the city of
+                                <strong style="display: block;">Locations</strong>
+                            </div>
+                        </div>
+                        <div class="border-bottom d-flex gap-3">
+                            <img src="https://cdn.prod.website-files.com/66485a78b23dea3a84fbe950/664c22606336b120552be867_Price.svg"
+                                alt="">
+                            <div>
+                                In price range of
+                                <strong style="display: block;">$50,000 - $1,25,000</strong>
+                            </div>
+                        </div>
+                        <div class="">
+                            <button type="button" class="btn btn-3 btn-outline-warning rounded-pill"
+                                style="  border: 1px solid #ff6314; color: #ff6314;  width: 100%;">Search</button>
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+    <section class="container ">
+        <div class="row row-cols-2         " style="margin: 55px 0px;">
+            <div class="col-sm-7 col-12">
+                <p class="display-2" style=" font-weight: 400;
+        line-height: 120%;">New Listings
+                </p>
+            </div>
+            <div class="col-sm-5 col-12">
+                <p>From chic urban apartments to serene countryside retreats. Start your search today and find the
+                    perfect place to call home.</p>
+                <div>
+                    <button type="button" class="btn btn-3 btn-outline-warning d-none  d-sm-none d-md-block" style="    border-radius: 555px;border: 1px solid #ff6314;color: #ff6314;
+    width: 30%;">Explore All</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="https://cdn.prod.website-files.com/664c35e33b13df97ba3b2be3/665176f1c78e09b11b6d7092_property-image-6-p-800.webp"
+                    class="img-thumbnail" alt="..." style="border: 0px;border-radius: 1.25rem;">
+                <div class="row ">
+                    <div class="col-sm-6">
+                        <p><strong>Serenity Haven</strong><span style="display: block;">Florida</span></p>
+                    </div>
+                    <div class="col-sm-6 d-flex justify-content-end">
+                        <p><strong style="float: right;">$ 300,000.00 USD</strong><span
+                                class="d-sm-none d-md-block d-none d-sm-block" style="display: block;float: right;">2500
+                                Sq.Ft</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img src="https://cdn.prod.website-files.com/664c35e33b13df97ba3b2be3/6662f3a68844b6c80d585f89_property-image-5-p-500.webp"
+                    class="img-thumbnail" alt="..." style="border: 0px;border-radius: 1.25rem;">
+                <div class="row ">
+                    <div class="col-sm-6 d-flex flex-sm-column">
+                        <p><strong>Riverside Villa</strong><span style="display: block;">Nevada,Miami</span></p>
+                    </div>
+                    <div class="col-sm-6 d-flex justify-content-end">
+                        <p><strong style="float: right;">$ 450,000.00 USD</strong><span
+                                class="d-sm-none d-md-block d-none d-sm-block" style="display: block;float: right;">2500
+                                Sq.Ft</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img src="https://cdn.prod.website-files.com/664c35e33b13df97ba3b2be3/66517689c78e09b11b6d20f9_property-image-4-p-500.webp"
+                    class="img-thumbnail" alt="..." style="border: 0px;border-radius: 1.25rem;">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p><strong>Serene Suburban</strong><span style="display: block;">San Diego</span></p>
+                    </div>
+                    <div class="col-sm-6 d-flex justify-content-end">
+                        <p><strong style="float: right;">$ 220,000.00 USD</strong><span
+                                class="d-sm-none d-md-block d-none d-sm-block" style="display: block;float: right;">1800
+                                Sq.Ft</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid" style="background-color: #0d0e13;padding: 100px 0px;margin-top:100px;">
+        <div class="container ">
+            <div class="row" style=" margin: 55px 0px;color: white;padding-bottom: 88px;">
+                <div class="col-sm-5 col-12">
+                    <p class="display-5" style="font-weight: 400; ">About us</p>
+                </div>
+                <div class="col-sm-7 col-12 ">
+                    <p style="    font-size: 52px;    font-weight: 450;">Our mission is simple, to provide unparalleled
+                        expertise, guidance, and support to our
+                        clients across their real estate journey.</p>
+                </div>
+            </div>
+            <div class="row " style=" color: white;border-top: 1px solid grey;">
+                <div class="col-sm-4 d-flex" style="margin-top: 55px;">
+                    <div>
+                        <img src="	https://cdn.prod.website-files.com/66485a78b23dea3a84fbe950/664c75bfe547b64276b3ef96_price-iocn.svg"
+                            alt="">
+                    </div>
+                    <div style="margin-left: 22px;">
+                        <h5>Affordable Price</h5>
+                        <p>Offering competitive rates that make quality accessible to all.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 d-flex" style="margin-top: 55px;">
+                    <div>
+                        <img src="https://cdn.prod.website-files.com/66485a78b23dea3a84fbe950/66581a758ea0e48b6fb3c44a_Clear.svg"
+                            alt="">
+                    </div>
+                    <div style="margin-left: 22px;">
+                        <h5>Clear Legality</h5>
+                        <p>Ensuring transparent and compliant legal processes.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 d-flex" style="margin-top: 55px;">
+                    <div>
+                        <img src="https://cdn.prod.website-files.com/66485a78b23dea3a84fbe950/66581a7560758a220963bb5c_Agents.svg"
+                            alt="">
+                    </div>
+                    <div style="margin-left: 22px;">
+                        <h5>Experienced Agents</h5>
+                        <p>Guided by professionals with expertise in the industry.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="container">
+        <div class="row" style="margin: 55px 0px;">
+            <div class="col-12">
+                <p style="    font-size: 70px;    font-size: 70px;">Featured Listings</p>
+            </div>
+        </div>
+        <div class="row" style="margin: 55px 0px;">
+            <div class="col-lg-6 col-12 d-flex ">
+                <img src="https://cdn.prod.website-files.com/664c35e33b13df97ba3b2be3/665176f1c78e09b11b6d7092_property-image-6.webp"
+                    class="img-fluid" alt="" style="    border: 0px;
+    border-radius: 1.25rem;">
+            </div>
+            <div class="col-lg-6 col-12 position-relative">
+                <div>
+                    <p style="    font-size: 52px;
+    font-weight: 400;">Serenity Haven</p>
+                    <p>Discover Serenity Haven, a secluded retreat with 4 bedrooms, 3 bathrooms, and 2,500 square feet
+                        of luxurious living space nestled in a serene forest setting.</p>
+                </div>
+                <div class="" style="bottom: 0px;">
+                    <strong>$300,000.00 USD </strong> <span style="color: grey;">/ Monthly</span>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row" style="margin: 55px 0px;">
+            <div class="col-lg-6 col-12 d-flex ">
+                <img src="https://cdn.prod.website-files.com/664c35e33b13df97ba3b2be3/6662f3a68844b6c80d585f89_property-image-5.webp"
+                    class="img-fluid" alt="" style="    border: 0px;
+    border-radius: 1.25rem;">
+            </div>
+            <div class="col-lg-6 col-12 position-relative">
+                <div>
+                    <p style="    font-size: 52px;
+    font-weight: 400;">Riverside Villa</p>
+                    <p>Experience tranquility at Riverside Villa, offering 2500 square feet of living space. This
+                        charming home includes 3 bedrooms and 2 bathrooms, perfect for comfortable living.</p>
+                </div>
+                <div class="" style="bottom: 0px;">
+                    <strong>$450,000.00 USD </strong> <span style="color: grey;">/ Monthly</span>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row" style="margin: 55px 0px;">
+            <div class="col-lg-6 col-12 d-flex ">
+                <img src="https://cdn.prod.website-files.com/664c35e33b13df97ba3b2be3/66517689c78e09b11b6d20f9_property-image-4.webp"
+                    class="img-fluid" alt="" style="
+    border-radius: 1.25rem;">
+            </div>
+            <div class="col-lg-6 col-12 position-relative">
+                <div>
+                    <p style="    font-size: 52px;
+    font-weight: 400;">Serene Suburban</p>
+                    <p>Situated in a tranquil suburban area, this home features a generous 1800 square feet of living
+                        space, including 3 bedrooms and 2 bathrooms.</p>
+                </div>
+                <div class="" style="bottom: 0px;">
+                    <strong>$220,000.00 USD </strong> <span style="color: grey;">/ Monthly</span>
+                </div>
+            </div>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto" style="margin-bottom: 55px;justify-content: center;">
+            <button class="btn btn-3 btn-outline-warning rounded-pill"
+                style="color: #ff6314; border: 1px solid #ff6314;padding: 11px 16px;" type="button"><strong>Explore All
+                    Properties</strong></button>
+        </div>
+    </section>
+    <section class="container-fluid" style="background-color: #0d0e13;padding: 100px 0px;margin-top:100px;">
+        <div class="container">
+            <div class="row" style="margin: 55px 0px;">
+                <div style="text-align: center;" class="col-lg-10 col-12 d-flex justify-content-lg-start justify-content-center">
+                    <h3 style="color: white;font-size: 70px;font-weight: 400;">Popular Cities</h3>
+                </div>
+                <div class="col-lg-2 d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block" style="display: flex;align-items: center;justify-content: end;gap: 10px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                        class="bi bi-arrow-left-circle" viewBox="0 0 16 16" style="color: white;">
+                        <path fill-rule="evenodd"
+                            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                        class="bi bi-arrow-right-circle" viewBox="0 0 16 16" style="color: white;">
+                        <path fill-rule="evenodd"
+                            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="row" style="margin: 55px 0px;">
+                <div class="col-xl-3 col-sm-6 col-12 ">
+                    <img class="ratio ratio-1x1 rounded-circle"
+                        src="https://cdn.prod.website-files.com/66485a78b23dea3a84fbe950/664d6cbab3fa0242cb5dd010_city-image-1-p-500.webp"
+                        alt="" class="rounded-circle">
+                    <p class="text-center" style="color: white;margin-top: 24px;    font-weight: 400;font-size: 22px;">
+                        <strong>California</strong>
+                    </p>
+                    <p class="text-center" style="color: white;">1,264 Listing</p>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-12 ">
+                    <img class="ratio ratio-1x1 rounded-circle"
+                        src="https://cdn.prod.website-files.com/66485a78b23dea3a84fbe950/66581b332e8f748ebb7d2673_listing-country-2-p-500.webp"
+                        alt="" class="rounded-circle">
+                    <p class="text-center" style="color: white;margin-top: 24px;font-weight: 400;font-size: 22px;">
+                        <strong>Miami</strong>
+                    </p>
+                    <p class="text-center" style="color: white;">923 Listing</p>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-12  ">
+                    <img class="ratio ratio-1x1 rounded-circle"
+                        src="https://cdn.prod.website-files.com/66485a78b23dea3a84fbe950/66581b8f484367e5a71dfde8_listing-country-3-p-500.webp"
+                        alt="" class="rounded-circle">
+                    <p class="text-center" style="color: white;margin-top: 24px;font-weight: 400;font-size: 22px;">
+                        <strong>New York</strong>
+                    </p>
+                    <p class="text-center" style="color: white;">2285 Listing</p>
+                </div>
+                <div class="col-xl-3 col-sm-6  col-12 ">
+                    <img class="ratio ratio-1x1 rounded-circle"
+                        src="https://cdn.prod.website-files.com/66485a78b23dea3a84fbe950/66581bbe5cbeeda2bc215d1f_listing-country-4-p-500.webp"
+                        alt="" class="rounded-circle">
+                    <p class="text-center" style="color: white;margin-top: 24px;font-weight: 400;font-size: 22px;">
+                        <strong>Washington DC</strong>
+                    </p>
+                    <p class="text-center" style="color: white;">455 Listing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="container-fluid" style="padding: 100px 0px;margin-top:100px;">
+        <div class="container">
+            <div class="row" style="margin: 55px 0px;">
+                <div class="col-md-6 col-12">
+                    <h3 style="font-size: 70px;font-weight: 400;">Our Agents</h3>
+                </div>
+                <div class="col-md-6 col-12 d-none d-sm-block d-md-flex align-items-md-center justify-content-md-end">
+                    <button class="btn btn-3 btn-outline-warning rounded-pill"
+                        style="color: #ff6314; border: 1px solid #ff6314;padding: 11px 16px;" type="button"><strong>View
+                            All Agents</strong></button>
+                </div>
+            </div>
+            <div class="row" style="margin: 55px 0px;">
+                <div class="col-xl-3 col-sm-6 col-12 ">
+                    <img class="ratio ratio-1x1 rounded"
+                        src="https://cdn.prod.website-files.com/664c35e33b13df97ba3b2be3/666bce5d15f6eb003a6a14bd_agent-image-7-p-500.webp"
+                        alt="" class="rounded">
+                    <p style="margin-top: 24px;font-weight: 400;"><strong>Michael Rodriguez</strong></p>
+                    <p>Agent</p>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-12 ">
+                    <img class="ratio ratio-1x1 rounded"
+                        src="https://cdn.prod.website-files.com/664c35e33b13df97ba3b2be3/666bcd743d427c4da25a7f92_agent-image-6-p-500.webp"
+                        alt="" class="rounded">
+                    <p style="margin-top: 24px;"><strong>Andrew Johnson</strong></p>
+                    <p>Retailer</p>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-12 ">
+                    <img class="ratio ratio-1x1 rounded"
+                        src="https://cdn.prod.website-files.com/664c35e33b13df97ba3b2be3/666435bd9620a6c6558c64b1_agent-4-p-500.webp"
+                        alt="" class="rounded">
+                    <p style="margin-top: 24px;"><strong>Esther Howard</strong></p>
+                    <p>Retailer</p>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-12 ">
+                    <img class="ratio ratio-1x1 rounded"
+                        src="https://cdn.prod.website-files.com/664c35e33b13df97ba3b2be3/6664357d308833ea7054a527_agent-3-p-500.webp"
+                        alt="" class="rounded">
+                    <p style="margin-top: 24px;"><strong>Bessie Cooper</strong></p>
+                    <p>Marketing Expert</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="container-fluid" style="background-color: #ff6314; padding: 100px 0px;margin-top:100px;">
+        <div class="container">
+            <div class="row" style="margin: 55px 0px;">
+                <div class="col-6">
+                    <h3 class="h1" style="color: white;">Testimonials</h3>
+                </div>
+                <div class="col-6" style="display: flex;align-items: center;justify-content: end;gap: 10px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                        class="bi bi-arrow-left-circle" viewBox="0 0 16 16" style="color: white;">
+                        <path fill-rule="evenodd"
+                            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                        class="bi bi-arrow-right-circle" viewBox="0 0 16 16" style="color: white;">
+                        <path fill-rule="evenodd"
+                            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="row" style="margin: 55px 0px;border-bottom: 1px solid white;padding-bottom: 44px;">
+                <div class="col-12 ">
+                    <p style="color: white;font-size: 37px;">"RealtiFye has been an invaluable partner in our search for
+                        the perfect
+                        commercial space. Their team is incredibly knowledgeable and dedicated, making the entire
+                        process seamless and stress-free.</p>
+                </div>
+            </div>
+            <div class=" d-flex" style="margin-top: 55px;">
+                <div>
+                    <img src="https://cdn.prod.website-files.com/66485a78b23dea3a84fbe950/664d81295d24eafae9694233_author-1.webp"
+                        class="rounded-circle" alt="">
+                </div>
+                <div style="    display: flex;
+                flex-direction: column;
+                justify-content: center;margin-left: 22px;">
+                    <h5 style="color: white;">John Smith</h5>
+                    <p style="color: white;">CEO, Tech Innovations Inc.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="container">
+        <div class="row align-items-center " style="margin: 55px 0px;">
+            <div class="col-sm-6 col-12">
+                <strong style="font-size: 60px;font-weight: 400;">Our Blogs
+                </strong>
+            </div>
+            <div class="col-sm-6 col-12 d-sm-flex d-none .d-sm-block align-items-sm-center justify-content-sm-end ">
+                <button class="btn btn-3 btn-outline-warning rounded-pill"
+                    style="color: #ff6314; border: 1px solid #ff6314;padding: 11px 16px;" type="button"><strong>Read
+                        All</strong></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="https://cdn.prod.website-files.com/664c35e33b13df97ba3b2be3/66640794aa3b7492d113c1a3_blog-image-6-p-500.webp"
+                    class="img-thumbnail" alt="..." style="border: 0px;border-radius: 1.25rem;">
+                <div class="row">
+                    <div class="col-12">
+                        <p style="font-size: 18px;font-weight:400;">Rural Retreats: Embracing the Tranquility of
+                            Countryside Estates<span style="display: block;">Leo Alexander
+                                .
+                                13
+                                min</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img src="https://cdn.prod.website-files.com/664c35e33b13df97ba3b2be3/6664075192916f53a2e9f0c6_blog-image-5-p-500.webp"
+                    class="img-thumbnail" alt="..." style="border: 0px;border-radius: 1.25rem;">
+                <div class="row">
+                    <div class="col-12">
+                        <p style="font-size: 18px;font-weight:400;">Luxury Living: Navigating the World of High-End Real
+                            Estate<span style="display: block;">Leo Alexander
+                                .
+                                8
+                                min</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img src="https://cdn.prod.website-files.com/664c35e33b13df97ba3b2be3/6664070481cd94ecb54180fe_blog-image-4-p-500.webp"
+                    class="img-thumbnail" alt="..." style="border: 0px;border-radius: 1.25rem;">
+                <div class="row">
+                    <div class="col-12">
+                        <p style="font-size: 18px;font-weight:400;">Unlocking the Charm: Exploring the Allure of
+                            Historic Homes<span style="display: block;">Leo Alexander
+                                .
+                                8
+                                min</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="position-relative" style="margin: 100px 0px;">
+        <div class="position-absolute top-0 start-0 bottom-0 end-0 ">
+            <img src="https://cdn.prod.website-files.com/66485a78b23dea3a84fbe950/66681a40e445f4104d07f355_global-cta-bg-p-2000.webp"
+                alt="" class="h-100 w-100 " style="object-fit: cover;">
+        </div>
+        <div class="position-absolute m-0 p-0 bg-black " style="opacity: 80px;"></div>
+        </div>
+        <div class="position-relative " style="padding: 128px 0px;">
+            <div class="container w-100">
+                <div>
+                    <h4 style="color: white;    font-size: 70px;
+         font-weight: 500;">Are you looking to buy or rent a property?</h4>
+                    <div>
+                        <button type="button" style="margin-top: 16px;" class="btn btn-outline-light rounded-pill">Get
+                            in
+                            Touch</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container">
+        <div class="row" style="border-bottom: 1px solid grey;">
+            <div class="col-md-3 col-12" style="margin-bottom: 18px;">
+                <img src="https://cdn.prod.website-files.com/66485a78b23dea3a84fbe950/66602ac7b48409a61db18617_logo-dark.svg"
+                    alt="" style="margin-bottom: 20px;">
+                <p style="color: grey;">© RealtiFye dedicated to revolutionizing the real estate experience. Through
+                    innovation and excellence.</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-facebook" viewBox="0 0 16 16" style="margin-right: 8px;">
+                    <path
+                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-instagram" viewBox="0 0 16 16" style="margin-right: 8px;">
+                    <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-twitter-x" viewBox="0 0 16 16" style="margin-right: 8px;">
+                    <path
+                        d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path
+                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                </svg>
+                <div>
+                    <button class="btn btn-3 btn-outline-warning rounded-pill"
+                        style="color: #ff6314;margin-top: 16px; border: 1px solid #ff6314;padding: 4px 16px;"
+                        type="button"><strong>Buy Template</strong></button>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6">
+                <ul type="none" class="lh-lg">
+                    <li>Pages</li>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Properties</li>
+                    <li>Agents</li>
+                    <li>Blogs</li>
+                    <li>Privacy</li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6">
+                <ul type="none" class="lh-lg">
+                    <li>Template</li>
+                    <li>Style Guide</li>
+                    <li>Licenses</li>
+                    <li>Changelog</li>
+                    <li>404</li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-4 col-12">
+                <ul type="none" class="lh-lg">
+                    <li>Contact</li>
+                    <li>(62) 1829017</li>
+                    <li>Hello@realtifye.com</li>
+                    <li>2912 Meadowbrook Road,</li>
+                    <li>Los Angeles, CA 90017</li>
+                </ul>
+            </div>
+        </div>
+        <div class="d-sm-flex justify-content-between" style="margin: 22px 0px;">
+            <p style="color: grey;">© All rights reserved. Flowfye.</p>
+            <p style="color: grey;">Powered by Webflow.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
